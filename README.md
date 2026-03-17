@@ -28,6 +28,15 @@
 *   Python 3.8 или выше.
 
 ### 1. Клонирование репозитория
-```bash
+bash
 git clone https://github.com/ВАШ_НИК/wowhead-parser.git
 cd wowhead-parser
+2. Установка зависимостей
+Установите необходимые библиотеки с помощью pip:
+
+bash
+pip install streamlit requests beautifulsoup4 lxml
+3. Запуск приложения
+bash
+streamlit run app.py
+После запуска в вашем браузере автоматически откроется страница по адресу http://localhost:8501.
